@@ -1,6 +1,6 @@
 # zh → en Review Workflow
 
-Use this workflow whenever an English document is reviewed against its Chinese source. The English text must be faithful, natural, and professional for a Western developer, with no Chinese-English. See [Repo-specific configuration](#repo-specific-configuration) at the bottom to adapt this guide to your project.
+Use this workflow whenever an English document in `en/` is reviewed against its Chinese source in `zh/`. The English text must be faithful, natural, and professional for a Western developer, with no Chinese-English. See [Repo-specific configuration](#repo-specific-configuration) at the bottom for per-project details.
 
 ## Requirements
 
@@ -33,8 +33,6 @@ Fill in this section when using the guide in a specific repository.
 
 | Setting | Value |
 |---|---|
-| Chinese source directory | *(e.g. `zh/`)* |
-| English target directory | *(e.g. `en/`)* |
 | Established glossary / term list | *(link or list key terms here)* |
 | Validation commands | *(e.g. `git diff --check`, link checker, build command)* |
 | Notes | *(any project-specific conventions)* |
