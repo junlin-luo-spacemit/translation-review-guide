@@ -7,6 +7,11 @@ Use this workflow whenever an English document in `en/` is reviewed against its 
 1. **No omissions.** Every fact, qualifier, parenthetical, lead-in label, cross-reference, list item, example, and consequence in the source must appear in English. Recurring gaps: dropped "see X" references, flattened lists, lost bold emphasis, and missing lead-ins such as "关键操作：" or "参数说明：".
 2. **No weakened meaning.** Do not soften a hard requirement, drop a condition, or merge two distinct cases into one vague sentence.
 3. **Natural English without technical loss.** Rewrite stiff or literal phrasing into professional English a Western developer would write, but never trade away a technical distinction to make a sentence flow. If natural wording and precision conflict, keep the precision and smooth only the surrounding phrasing.
+
+   Within a paragraph, present instructions in the order the reader needs them. When a check must happen before an action, make that sequence clear without describing the action twice. Preserve who does what, when, and under what conditions. Leave wording that is already clear and faithful unchanged.
+
+   Example: “上传会把该资源提交到开发者平台，提交前确认资源内容适合公开。” → “Before uploading the resource to the developer platform, check that its contents are suitable for public sharing.” This keeps the destination and the required check without implying that uploading makes the resource public.
+
 4. **Consistent terminology.** Reuse the terms already established in this project's glossary and English docs (see [Repo-specific configuration](#repo-specific-configuration)) and link cross-references to real anchors.
 5. **Source-block correspondence.** Preserve source order and keep each heading, lead-in, paragraph, list item, table row, admonition, example, and reference as a separately identifiable English counterpart. Do not merge or summarize separate blocks without user approval. Line breaks within a paragraph may differ for natural English. Do not add content the source does not state.
 6. **Evaluate feedback, don't apply it mechanically.** Prefer targeted edits and keep wording that is already faithful and natural. Check each proposed revision against the source and the surrounding technical context; reject changes that introduce ambiguity, omit an actor, or alter a constraint.
